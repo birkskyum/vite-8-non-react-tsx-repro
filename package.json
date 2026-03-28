@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "rm -rf node_modules/.vite && vite dev",
     "postinstall": "mkdir -p node_modules/pkg-using-solid && cp pkg-using-solid/* node_modules/pkg-using-solid/"
   },
   "devDependencies": {
