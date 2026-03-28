@@ -3,12 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev"
+    "dev": "vite dev",
+    "postinstall": "mkdir -p node_modules/pkg-using-solid && cp pkg-using-solid/* node_modules/pkg-using-solid/"
   },
   "devDependencies": {
     "vite": "^8.0.0"
   },
   "dependencies": {
-    "fake-solid-pkg": "file:./fake-solid-pkg"
+    "solid-js": "^1.9.12",
+    "vite-plugin-solid": "^2.11.11"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "fake-solid-pkg",
+  "name": "pkg-using-solid",
   "version": "1.0.0",
   "type": "module",
   "main": "./index.tsx"

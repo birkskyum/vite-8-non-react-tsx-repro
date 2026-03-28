@@ -1,2 +1,2 @@
-import { render } from "fake-solid-pkg";
+import { render } from "pkg-using-solid";
 render();
