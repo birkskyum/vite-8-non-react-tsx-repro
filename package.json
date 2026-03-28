@@ -1,0 +1,14 @@
+{
+  "name": "vite8-tsx-scanner-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0"
+  },
+  "dependencies": {
+    "fake-solid-pkg": "file:./fake-solid-pkg"
+  }
+}
