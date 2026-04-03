@@ -1,5 +1,5 @@
 {
-  "name": "vite8-tsx-scanner-repro",
+  "name": "vite8-tsx-scanner-repro-patched",
   "private": true,
   "type": "module",
   "scripts": {
